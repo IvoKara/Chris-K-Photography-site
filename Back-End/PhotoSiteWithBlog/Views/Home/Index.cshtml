@@ -1,0 +1,33 @@
+﻿@{ 
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/homepage.css" rel="stylesheet" type="text/css">    
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Chris
+            <span style="color: darkgoldenrod">K.</span>
+            Parvanov
+        </h1>
+    </div>
+
+    <div style="margin-top: 500px">
+        <button class="button">
+            <a asp-area="" asp-controller="Home" asp-action="Portfolio">
+                <span>Portfolio</span>
+            </a>
+        </button>
+        <button class="button">
+            <a asp-area="" asp-controller="Posts" asp-action="Index">
+                <span>Blog</span>
+            </a>
+        </button>
+    </div>
+</body>
+</html>

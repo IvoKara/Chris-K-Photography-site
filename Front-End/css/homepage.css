@@ -1,0 +1,62 @@
+﻿
+.no-scroll::-webkit-scrollbar { 
+    display: none; 
+}
+
+div.parallax {
+    background-image: url("../images/BgImageCat.jpg");
+    min-height: 580px;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text
+{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+.main-text h1 {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Baloo Bhai', bold;
+    margin-top: 13px;
+}
+
+#headline {
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+#description {
+    font-size: 25px;
+}
+
+#links {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    margin-bottom: 90px;
+}
+
+.button {
+    border: solid rgb(9, 6, 15);
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 150px;
+    margin: 500px;
+}
+
+.button:hover {
+    background-color: darkslategray;
+    cursor: pointer;
+}
