@@ -1,0 +1,23 @@
+﻿
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    float: left;
+    margin: 60px;  
+}
+
+.portrait{
+    margin: 100px;
+    width: 300px;
+    height:auto;
+}
+
+body {
+    background-color: black;
+}
+
+p, h1, li {
+    color: white;
+}

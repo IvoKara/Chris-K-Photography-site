@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/homepage.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <div  style="font-size: large">
+        <h1>
+            Chris
+            <span style="color: darkgoldenrod">K.</span>
+            Parvanov
+        </h1>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div style="background-color:red;font-size:36px; margin: 100px">
+        Scroll Up and Down this page to see the parallax scrolling effect.
+        This div is just here to enable scrolling.
+        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
+
+    <div id="links">
+        <button class="button">
+            <a asp-area="" asp-controller="Home" asp-action="Portfolio">
+                <span>Portfolio</span>
+            </a>
+        </button>
+        <button class="button">
+            <a asp-area="" asp-controller="Posts" asp-action="Index">
+                <span>Blog</span>
+            </a>
+        </button>
+    </div>
+</body>
+</html>
