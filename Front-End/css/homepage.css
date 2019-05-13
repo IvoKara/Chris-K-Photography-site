@@ -1,42 +1,99 @@
-﻿
-.no-scroll::-webkit-scrollbar { 
+﻿.affix {
+    -webkit-transition:padding 0.2s ease-out;
+    -moz-transition:padding 0.2s ease-out;  
+    -o-transition:padding 0.2s ease-out;         
+    transition:padding 0.2s ease-out;
+  
+  }
+  
+  .affix-top {
+    /* navbar style at top */
+    background:transparent;
+    border-color:transparent;
+    padding: 15px;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease; 
+    -o-transition:all 0.5s ease;         
+    transition:all 0.5s ease;  
+  }
+  
+a {
+    color: black;
+  }
+  
+  .affix-top .navbar-collapse {
+     border-color:transparent;
+     box-shadow:initial;
+  }
+.no-scroll-bar::-webkit-scrollbar { 
     display: none; 
 }
 
 div.parallax {
-    background-image: url("../images/BgImageCat.jpg");
-    min-height: 580px;
-    max-width: 100%;
+    min-height: 725px;
+    max-width: 100%;    
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+div.img0 {
+    background-image: url("../images/FrameLandscape.jpg");    
+    background-position-y: 50%;
+}
+
+div.img1 {
+    background-image: url("../images/BgImageCat.jpg");
+    background-position-y: 94%;
+}
+
+div.img2 {
+    background-image: url("../images/Camera.jpg");
+    background-position-y: 45%;
 }
 
 .main-text
 {
+    text-align: center; 
     position: absolute;
-    top: 60%;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    
+    top: 500px;
+    width: 100%;    
 }
 
-.main-text h1 {
-    text-align: center;
+li>a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ span.heading {
+    margin-bottom: -10px;
+    margin-left: 43px;
+    font-size: 70px;
+}
+
+.brand-style {
     color: black;
     text-decoration: none;
-    font-family: 'Baloo Bhai', bold;
-    margin-top: 13px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
 
-#headline {
-    font-size: 45px;
-    margin-top: 100px;
-    margin-bottom: -50px;
+.k-style {
+    color: darkgoldenrod;
+     font-family: 'Great Vibes', cursive;
 }
 
-#description {
-    font-size: 25px;
+.k-style::after {
+     content: " ";
+     white-space: pre;
+     
+}
+
+p.subtitle {
+    color: rgb(17, 17, 2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
 }
 
 #links {

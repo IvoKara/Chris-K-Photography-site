@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-    
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&amp;subset=gujarati,latin-ext,vietnamese" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.3.1-dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-4.3.1-dist/css/bootstrap-grid.css">
@@ -24,29 +25,52 @@
 
     <title>Home Page</title>
 </head>
-<body class="no-scroll">
+<body class="no-scroll-bar">
 
     <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="parallax"></div>
+                <div class="img0 parallax"></div>
             </div>
             <div class="carousel-item">
-                <div class="parallax"></div>
+                <div class="img1 parallax"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="img2 parallax"></div>
             </div>
         </div>       
     </div>
     <div class="main-text">
-        <h1 class="heading">
+        <span class="brand-style heading">
             Chris 
-            <span style="color: darkgoldenrod">K.</span>
+            <span class="k-style">K.</span>
             Parvanov
-        </h1>
+        </span>
+        <p class="subtitle">Photographer based in Sofia, Bulgaria</p>
     </div>        
+
+    <div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contacts</a>
+            </li>
+        </ul>
+    </div>
+
     <div>
         <button class="button">
             <a asp-area="" asp-controller="Home" asp-action="Portfolio">
