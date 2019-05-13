@@ -1,27 +1,4 @@
-﻿.affix {
-    -webkit-transition:padding 0.2s ease-out;
-    -moz-transition:padding 0.2s ease-out;  
-    -o-transition:padding 0.2s ease-out;         
-    transition:padding 0.2s ease-out;
-  
-  }
-  
-  .affix-top {
-    /* navbar style at top */
-    background:transparent;
-    border-color:transparent;
-    padding: 15px;
-    -webkit-transition:all 0.5s ease;
-    -moz-transition:all 0.5s ease; 
-    -o-transition:all 0.5s ease;         
-    transition:all 0.5s ease;  
-  }
-  
-a {
-    color: black;
-  }
-  
-  .affix-top .navbar-collapse {
+﻿.affix-top .navbar-collapse {
      border-color:transparent;
      box-shadow:initial;
   }
@@ -62,7 +39,34 @@ div.img2 {
 }
 
 li>a {
+    color: black;
     font-family: 'Montserrat', sans-serif;
+}
+
+li>a:hover {
+    color: darkgoldenrod;
+}
+
+li>a:active {
+    color: rgb(17, 17, 2);;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+div.horizontal-line {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-left: 30%;
+    width: 40%;
+    padding-top: 3px;
+    background-color: darkgoldenrod;
 }
 
  span.heading {
@@ -96,24 +100,15 @@ p.subtitle {
     
 }
 
-#links {
-    position: absolute;
-    bottom: 0;
-    left: 40%;
-    margin-bottom: 90px;
+footer.footer {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px 0px;
 }
 
-.button {
-    border: solid rgb(9, 6, 15);
-    background-color: transparent;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 10px;
-    min-width: 150px;
-    margin: 500px;
-}
-
-.button:hover {
-    background-color: darkslategray;
-    cursor: pointer;
+footer.social-icons {
+    display: inline;
+    list-style-type: none;
 }
