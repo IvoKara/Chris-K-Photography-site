@@ -1,12 +1,14 @@
 ﻿.gallery {
-    margin-left: 27%;
+    margin: 0 25%;
     display: grid;
-    grid-template-columns: repeat(3, 20%);
-    grid-template-rows: repeat(3, 37%);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 18em 18em 18em;
     grid-gap: 2%;
 }
 
 .picture {  
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+  display: block;
+    object-fit: cover;
 }
