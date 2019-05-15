@@ -10,16 +10,23 @@
 div.img0 {
     background-image: url("../images/FrameLandscape.jpg");    
     background-position-y: 50%;
+    background-position-x: center;
 }
 
 div.img1 {
     background-image: url("../images/BgImageCat.jpg");
     background-position-y: 94%;
+    background-position-x: center;
 }
 
 div.img2 {
     background-image: url("../images/Camera.jpg");
     background-position-y: 45%;
+    background-position-x: center;
+}
+
+.heading-font{
+    font-size: 80px;
 }
 
 .main-text
@@ -32,8 +39,17 @@ div.img2 {
 
  span.brand-name {
     margin-bottom: 0px;
-    margin-left: 43px;
-    font-size: 80px;
+    margin-left: 2.15%;
+}
+
+@media screen and (max-width: 700px) {
+    .heading-font{font-size: 60px;}
+
+}
+
+@media screen and (max-width: 500px) {
+    .heading-font{font-size: 40px;}
+
 }
 
 p.subtitle {
