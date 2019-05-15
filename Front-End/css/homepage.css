@@ -59,15 +59,49 @@ p.subtitle {
     margin-top: 0px;
 }
 
-footer.footer {
-    background-color: rgb(40, 40, 40);
+p.contacts {
+    font-family: 'Oswald', sans-serif;
     color: white;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    padding: 50px 0px;
+    font-size: 30px;
 }
 
-footer.social-icons {
+p.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    p.contacts {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    p.contacts {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+
+    p.copyright {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+footer.footer {
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.4%;
+}
+
+.social-icons>li {
     display: inline;
     list-style-type: none;
+    margin: 0 10px;
 }
