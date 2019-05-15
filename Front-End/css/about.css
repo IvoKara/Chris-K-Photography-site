@@ -1,8 +1,28 @@
 .photo-me {
-    width: 20%;
+    width: 500px;
+    height: auto;
+    margin-left: 20%;
+}
+
+.chris{    
+    width: 100%;
     height: auto;
 }
 
 section.description {
     background-color: rgb(42, 42, 42);
+    width: 100%;
+    height: 100%;
+    padding: 0 2%;
+}
+
+figure.non-sticky-line {
+    background-color: darkgoldenrod;
+    
+}
+
+p.bio {
+    /*color: white;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
