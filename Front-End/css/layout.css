@@ -10,7 +10,6 @@ nav.sticky {
     background-color: white;
 }
 
-
 a {
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -24,8 +23,18 @@ a:active {
     color: rgb(17, 17, 2);
 }
 
+.heading {
+    text-align: center;
+    margin: 10vh 0;
+}
 
-div.horizontal-line {
+h1 {
+    color: black;
+    font-size: 150px;
+    font-family: 'Great Vibes', cursive;
+}
+
+figure.horizontal-line {
     position: -webkit-sticky;
     position: sticky;
     top: 0;

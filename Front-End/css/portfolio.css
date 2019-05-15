@@ -1,23 +1,12 @@
-﻿
-
-.circle {
-    height: 200px;
-    width: 200px;
-    border-radius: 80%;
-    float: left;
-    margin: 60px;  
+﻿.gallery {
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 45%);
+    grid-gap: 2%;
 }
 
-.portrait{
-    margin: 100px;
-    width: 300px;
-    height:auto;
-}
-
-body {
-    background-color: black;
-}
-
-p, h1, li {
-    color: white;
+.picture {  
+    width: 100%;
+    object-fit: cover;
 }
