@@ -8,12 +8,12 @@ nav.sticky {
     top: 0;
     padding: 10px;
     background-color: white;
-    font-size: 18px;
 }
 
 a {
     color: black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 a:hover {
@@ -40,6 +40,12 @@ h1 {
         color: black;
         font-size: 100px;
         font-family: 'Great Vibes', cursive;
+    }
+
+    a {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
     }
 }
 
@@ -69,4 +75,65 @@ figure.horizontal-line {
      content: " ";
      white-space: pre;
      
+}
+
+p.contacts {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+p.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+    p.contacts {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    p.contacts {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 15px;
+    }
+
+    p.copyright {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    p.contacts {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 10px;
+    }
+
+    p.copyright {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 8px;
+    }
+}
+
+footer.footer {
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.4%;
+}
+
+.social-icons>li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
 }
