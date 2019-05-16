@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 18em 18em 18em;
     grid-gap: 2%;
+    margin-bottom: 80px;
 }
 
 .picture {  
